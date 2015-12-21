@@ -1,0 +1,40 @@
+﻿body { background: #333; }
+
+#container {
+	width: 740px;
+	height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+#content {
+	position: absolute;
+	top: 0;
+}
+
+#scroller {
+	position: absolute;
+	width: 16px;
+	height: 400px;
+	background: #888;
+	right: 0;
+	top: 0;
+	/* 角丸 */
+	border-radius: 8px;
+	-moz-border-radius: 8;
+	-webkit-border-radius: 8px;
+}
+
+#thumb {
+	position: absolute;
+	width: 16px;
+	height: 100px;
+	background: #EEE;
+	cursor: pointer;
+	/* 角丸 */
+	border-radius: 8px;
+	-moz-border-radius: 8;
+	-webkit-border-radius: 8px;
+}
+
+img { vertical-align: middle; }
